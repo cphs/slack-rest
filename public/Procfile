@@ -1,1 +1,1 @@
-web: vendor/bin/phpunit
+web: vendor/bin/phpunit public/
