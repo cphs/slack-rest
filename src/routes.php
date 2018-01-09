@@ -92,7 +92,7 @@ $app->get('/fetch-message/[{id}]', function ($request, $response, $args) {
 });
 
 function getToken(){
-	return "xoxp-8164026197-122565617027-288161819667-2125b66418e92a7139b6b175d2c7acce";
+	return "<YOUR_SLACK_TOKEN>";
 }
 
 function callAPI($method, $url, $data = false){
